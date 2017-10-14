@@ -1,0 +1,33 @@
+{
+  "name": "bnbwebexpertise/laravel-merge-plugin",
+  "description": "Laravel 5.5 package to enable auto-discovery for packages loaded via wikimedia/composer-merge-plugin",
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "B&B Web Expertise",
+      "email": "support@bnb.re"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "laravel/framework": "5.5.x"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Bnb\\Laravel\\MergePlugin\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    },
+    "laravel": {
+      "providers": [
+        "Bnb\\Laravel\\MergePlugin\\MergePluginServiceProvider"
+      ]
+    }
+  }
+}
