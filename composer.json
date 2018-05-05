@@ -10,7 +10,8 @@
     }
   ],
   "require": {
-    "php": ">=7.0"
+    "php": ">=7.0",
+    "wikimedia/composer-merge-plugin": "^1.4"
   },
   "minimum-stability": "stable",
   "prefer-stable": true,
