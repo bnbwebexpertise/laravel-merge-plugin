@@ -10,8 +10,7 @@
     }
   ],
   "require": {
-    "php": ">=7.0",
-    "laravel/framework": "5.5.x"
+    "php": ">=7.0"
   },
   "minimum-stability": "stable",
   "prefer-stable": true,
