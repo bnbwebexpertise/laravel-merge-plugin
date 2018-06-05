@@ -1,4 +1,4 @@
-# Laravel 5.5 - Wikimedia Composer Merge Plugin - Auto Discovery
+# Laravel 5.* - Wikimedia Composer Merge Plugin - Auto Discovery
 
 > Intended to be used for Laravel packages development only and when [wikimedia/composer-merge-plugin](https://github.com/wikimedia/composer-merge-plugin) is used to load the packages.
 
